@@ -40,7 +40,7 @@ function PlantPage() {
     <main>
       <NewPlantForm handleSubmit={handleSubmit}/>
       <Search setSearch={setSearch}/>
-      <PlantList plantArray={plantsToDisplay}/>
+      <PlantList plantArray={plantsToDisplay} setPlantArray={setPlantArray}/>
     </main>
   );
 }
